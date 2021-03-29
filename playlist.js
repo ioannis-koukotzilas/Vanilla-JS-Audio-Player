@@ -1,3 +1,10 @@
+/**
+   * Vanilla JS Audio Player with ACF
+   * Copyright © 2021
+   * Monoscopic Studio | https://monoscopic.net
+   * Version 1.0.0
+**/
+
 class AudioTrack {
   constructor(track_element) {
     this.el = track_element;
