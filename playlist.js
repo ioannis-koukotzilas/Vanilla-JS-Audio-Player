@@ -90,6 +90,8 @@ class AudioPlayer {
 
     if (this.audio_el.paused) {
       this.audio_el.play();
+    } else {
+      this.audio_el.pause();
     }
   }
 
